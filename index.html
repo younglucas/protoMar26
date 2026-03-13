@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Calendar</h1>
+    </header>
+
+    <section id="calendar">
+        <h2>Calendar</h2>
+        <div id="calendarDisplay"></div>
+    </section>
+
+    <section id="blogPosts">
+        <h2>Blog Posts</h2>
+        <ul id="postsList">
+            <li>Blog Post 1</li>
+            <li>Blog Post 2</li>
+            <li>Blog Post 3</li>
+        </ul>
+    </section>
+
+    <section id="topicRequest">
+        <h2>Request a Topic</h2>
+        <form id="requestForm">
+            <label for="topic">Your Topic Request:</label>
+            <input type="text" id="topic" name="topic" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
